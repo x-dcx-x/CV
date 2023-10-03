@@ -146,3 +146,23 @@ main {
     border: solid lightgrey;
 
 }
+.traithover{
+    width: 100%;
+}
+
+.traithover:hover{
+    border-right: #782221 solid 4px;
+}
+
+.year{
+    margin: 1rem;
+
+}
+
+.school{
+    margin-left: 1rem;
+}
+
+.ul {
+    margin-left: 3rem;
+}
