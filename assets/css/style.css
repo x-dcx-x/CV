@@ -7,7 +7,6 @@
 html {
     font-size: 65.5%;
 }
-
 h1,h2,h3{
     font-family: 'Lato', sans-serif;
 }
@@ -25,6 +24,7 @@ body {
     margin: auto;
 }
 
+/*/////////////////header/////////////*/
 header {
     background-color: #782221;
     display: flex;
@@ -57,6 +57,8 @@ nav {
     background-color: #2c1d27;
 }
 
+/*/////////////aside///////////  */
+
 .textapropo{
     color: white;
 
@@ -75,6 +77,7 @@ nav {
 .navig:hover{
     text-decoration: underline;
 }
+/*///////////////main//////////////*/
 
 main {
     display: flex;
@@ -134,6 +137,7 @@ main {
     margin-left: 1rem;
     padding: 2rem;
 }
+/*/////////////main/Xp///////////*/
 
 .xp {
     display: flex;
@@ -146,6 +150,7 @@ main {
     border: solid lightgrey;
 
 }
+
 .traithover{
     width: 100%;
 }
@@ -165,4 +170,34 @@ main {
 
 .ul {
     margin-left: 3rem;
+}
+
+/*////////////footer/////////*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #782221;
+    height: 10rem;
+}
+
+.fa-brands, .fa-linkedin, .fa-square-github, .fa-square-x-twitter {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+    color: black;
+}
+
+.fa-square-x-twitter:hover{
+    opacity: 60%;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.2rem;
 }
