@@ -166,3 +166,33 @@ main {
 .ul {
     margin-left: 3rem;
 }
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #782221;
+    height: 10rem;
+}
+
+.fa-brands, .fa-linkedin, .fa-square-github, .fa-square-x-twitter {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+    color: black;
+}
+
+.fa-square-x-twitter:hover{
+    opacity: 60%;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 1.2rem;
+}
